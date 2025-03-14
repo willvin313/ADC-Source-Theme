@@ -1,8 +1,8 @@
 {
-    "name": "source",
+    "name": "adc-source-theme",
     "description": "A default theme for the Ghost publishing platform",
     "demo": "https://source.ghost.io",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "engines": {
         "ghost": ">=5.0.0"
     },
@@ -18,9 +18,9 @@
         "postship": "git fetch && gulp release"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org/"
+        "name": "Willvin",
+        "email": "info@willvin.com",
+        "url": "https://willvin.com/"
     },
     "gpm": {
         "type": "theme",
@@ -91,11 +91,11 @@
                     "Logo on the left",
                     "Stacked"
                 ],
-                "default": "Logo in the middle"
+                "default": "Logo on the left"
             },
             "site_background_color": {
                 "type": "color",
-                "default": "#ffffff"
+                "default": "#000000"
             },
             "header_and_footer_color": {
                 "type": "select",
@@ -140,7 +140,7 @@
                     "Off"
                 ],
                 "description": "Landing is recommended for all sites, Highlight & Magazine for those with more content",
-                "default": "Landing",
+                "default": "Magazine",
                 "group": "homepage"
             },
             "header_text": {
@@ -158,7 +158,7 @@
             },
             "show_featured_posts": {
                 "type": "boolean",
-                "default": false,
+                "default": true,
                 "group": "homepage",
                 "visibility": "header_style:[Highlight, Magazine]"
             },
@@ -168,7 +168,7 @@
                     "List",
                     "Grid"
                 ],
-                "default": "List",
+                "default": "Grid",
                 "group": "homepage"
             },
             "show_images_in_feed": {
@@ -189,7 +189,7 @@
             },
             "show_publication_info_sidebar": {
                 "type": "boolean",
-                "default": false,
+                "default": true,
                 "group": "homepage"
             },
             "show_post_metadata": {
@@ -199,7 +199,7 @@
             },
             "enable_drop_caps_on_posts": {
                 "type": "boolean",
-                "default": false,
+                "default": true,
                 "group": "post"
             },
             "show_related_articles": {
